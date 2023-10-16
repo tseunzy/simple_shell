@@ -39,7 +39,7 @@ void error_userinput(void)
 	}
 	else
 	{
-		perror("cust_getline");
+		perror("getline");
 		exit(EXIT_FAILURE);
 	}
 }

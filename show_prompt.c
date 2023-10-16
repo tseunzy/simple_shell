@@ -7,8 +7,8 @@ void show_prompt(void)
 {
 	if (isatty(STDIN_FILENO))
 	{
-	_myprintf("simple_shell$ ");
-	fflush(stdout);
+		_myprintf("simple_shell$ ");
+		fflush(stdout);
 	}
 }
 
