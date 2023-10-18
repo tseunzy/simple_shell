@@ -26,15 +26,3 @@ int _myprintf(const char *content)
 	return (len);
 }
 
-/**
- * sigint_handler - function that is called when press SIGINT (Ctrl+C)
- * @signum: the signal number
- */
-void sigint_handler(int signum)
-{
-	(void)signum; /*Mark the parameter as unused to avoid the warning*/
-
-	/*Print a newline to avoid cluttering the prompt*/
-	_myprintf("\n");
-	show_prompt();
-}

@@ -10,8 +10,6 @@ int main(void)
 {
 	char *input = NULL;
 
-	signal(SIGINT, sigint_handler);
-
 	while (1)
 	{
 		read_userinput(&input);
